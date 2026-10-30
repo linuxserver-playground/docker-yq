@@ -9,6 +9,13 @@ upstream:
   version:
     type: pip
     package: yq
+  notes:
+    type: github_release
+    repo: kislyuk/yq
+    tag: v${VERSION}
+  sponsor:
+  - name: yq (GitHub Sponsors)
+    url: https://github.com/sponsors/kislyuk
 
 release:
   branch: master
